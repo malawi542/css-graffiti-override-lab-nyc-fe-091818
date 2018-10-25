@@ -1,1 +1,24 @@
 /* write your override styles here */
+
+.tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: none;
+  color: blue;
+  border: 1px solid green;
+}
+
+#wall .tag-1 {
+  display: none;
+  display: block;
+}
+
+#wall .tag-3 {
+  display: block;
+  background-color: red;
+}
+
+.parent #tag-5 {
+  color: Green;
+  display: inline;
+}
